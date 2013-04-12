@@ -1,5 +1,9 @@
 /* A stab at a mobile/responsive css - keepin' it simple, we hope */
 
+.clear {
+    clear: both;
+}
+
 .cyoa_wrapper {
     /*The easiest way to set colored background that clears all the floats, center the thing etc.*/
     background: black;

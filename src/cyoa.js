@@ -129,6 +129,7 @@
                 that.story[page].element = that.create_page_element(page); 
                 that.story[page].element.addClass('cyoa_hide');
                 that.story[page].element.append(that.create_controls(page));
+                that.story[page].element.append('<div class="clear"></div>');
                 container_elem.append(that.story[page].element);
             },
             create_page_element : function(page) {

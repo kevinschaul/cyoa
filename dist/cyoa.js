@@ -1,4 +1,4 @@
-/*! MJ CYOA - v0.1.0 - 2013-04-10
+/*! MJ CYOA - v0.1.0 - 2013-04-12
 * https://github.com/motherjones/cyoa
 * Copyright (c) 2013 Ben Breedlove; Licensed MIT, GPL */
 
@@ -121,6 +121,7 @@
                 that.story[page].element = that.create_page_element(page); 
                 that.story[page].element.addClass('cyoa_hide');
                 that.story[page].element.append(that.create_controls(page));
+                that.story[page].element.append('<div class="clear"></div>');
                 container_elem.append(that.story[page].element);
             },
             create_page_element : function(page) {
